@@ -5,11 +5,11 @@
 echo Starting Compile Script . . .
 
 function check(){
-	. check.sh
+	$(pwd)/compiler/check.sh
 }
 
 function compile(){
-	. compile.sh
+	 $(pwd)/compiler/compile.sh
 }
 
 check
